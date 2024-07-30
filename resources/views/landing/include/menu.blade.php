@@ -6,8 +6,7 @@
                         <li class="nav-item"><a class="nav-link" href="{{route('landing.acerca')}}">¿Quienes Somos?</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{route('landing.mision')}}">Misión y visión</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{route('landing.contacto')}}">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{route('login')}}">Acceso</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{route('register')}}">Registro</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://zona-admon.web.app/">Acceso</a></li>
                     </ul>
                 </div>
             </div>

@@ -7720,7 +7720,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgb(255 17 17) !important;
 }
 
 .text-secondary {
@@ -7775,7 +7775,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #41464a !important;
 }
 
 .text-black-50 {
@@ -7811,12 +7811,12 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #009688 !important;
+  background-color: rgb(12 127 146 / 43%) !important;
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgb(160 198 204 / 43%) !important;
 }
 
 .bg-success {
@@ -11305,7 +11305,7 @@ body {
 }
 
 .text-white-75 {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgb(0 0 0 / 75%) !important;
 }
 
 .btn-xl {
@@ -11321,12 +11321,12 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #94f43a;
+  background-color: #f43a3a;
   opacity: 1;
 }
 
 hr.divider-light {
-  background-color: #fff;
+  background-color: #f50000;
 }
 
 #mainNav {
@@ -11355,7 +11355,7 @@ hr.divider-light {
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
-    background-color: #5f9ea0;
+    background-color: #9edbe3;
   }
   #mainNav .navbar-brand {
     color: rgb(27 27 27 / 70%);
@@ -11391,10 +11391,20 @@ hr.divider-light {
   }
 }
 
+header.equipo{
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 80, 0.0) 0%, rgba(92, 77, 80, 0.0) 100%), url("../assets/img/equipo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 80, 0.8) 0%, rgba(92, 77, 80, 0.8) 100%), url("../assets/img/PRUEBA.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 80, 0.5) 0%, rgba(92, 77, 80, 0.5) 100%), url("../assets/img/portada.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
